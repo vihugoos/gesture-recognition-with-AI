@@ -1,0 +1,15 @@
+{
+  "name": "gesture-recognition-with-AI",
+  "version": "0.0.1",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx browser-sync -w"
+  },
+  "keywords": [],
+  "author": "Victor Hugo",
+  "license": "MIT",
+  "description": "Gesture Controller with AI",
+  "devDependencies": {
+    "browser-sync": "^2.27.11"
+  }
+}
