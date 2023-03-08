@@ -4,21 +4,63 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Hugo Prime - BlinkToPlay</title>
+        <title>Hugo Prime - Blink To Play</title>
+        <link rel="icon" type="image/x-icon" href="../../assets/favicon.ico" />
         <style>
-            div.center {
+            .button-container {
+                margin-left: 20px;
+            }
+
+            button {
+                margin: 15px;
+                cursor: pointer;
+                padding: 8px 25px;
+                border-radius: 8px;
+                border-style: none;
+                background-color: rgb(44, 212, 103);
+                color: #fff;
+                font-weight: 700;
+            }
+
+            button:hover {
+                background-color: rgba(30, 169, 79, 0.9);
+            }
+
+            button:disabled {
+                background-color: #808080;
+                cursor: not-allowed;
+            }
+
+            output {
+                color: #fff;
+            }
+
+            .video-container {
                 text-align: center;
             }
+
             video {
-                width: 80%;
+                width: 50%;
                 margin: 10px;
             }
         </style>
     </head>
 
     <body background="../../assets/texture.png">
-        <div class="center">
+        <div class="button-container">
+            <div>
+                <button type="button" id="init" disabled>
+                    Initialize Blink Recognition
+                </button>
+
+                <output id="status"></output>
+            </div>
+        </div>
+
+        <div class="video-container">
             <video id="video" src="/assets/video.mp4" controls></video>
         </div>
+
+        <script src="./src/index.js" type="module"></script>
     </body>
 </html>
