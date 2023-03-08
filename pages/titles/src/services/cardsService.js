@@ -1,9 +1,11 @@
 export default class CardService {
     #database = [];
     #dbUrl = "";
+    #cardListWorker;
 
-    constructor({ dbUrl }) {
+    constructor({ dbUrl, cardListWorker }) {
         this.#dbUrl = dbUrl;
+        this.#cardListWorker = cardListWorker;
     }
 
     async loadCards() {
@@ -19,13 +21,7 @@ export default class CardService {
         );
 
         if (keyword) {
-            console.log("activating blocking operation...");
-            console.time("blocking-op");
-
-            // blocking function
-            // 1e5 = 100.000
-            for (let counter = 0; counter < 1e5; counter++) console.log(".");
-            console.timeEnd("blocking-op");
+            this.#cardListWorker.postMessage({ maxItems: 10000 });
         }
 
         const cards = titles.map((item) => {
