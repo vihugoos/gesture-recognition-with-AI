@@ -30,7 +30,7 @@ export default class Camera {
         // Only for debug reasons
         // camera.video.height = 200;
         // camera.video.width = 320;
-        // document.body.querySelector(".video-container").append(camera.video);
+        // document.body.append(camera.video);
 
         // Wait for the camera
         await new Promise((resolve) => {
