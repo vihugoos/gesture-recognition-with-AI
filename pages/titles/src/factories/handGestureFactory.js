@@ -15,13 +15,15 @@ import {
     knownGestures,
 } from "../utils/util.js";
 
+const styler = new PseudoStyler();
+
 const camera = await Camera.init();
 
 const factory = {
     async initialize() {
         return HandGestureController.initialize({
             camera,
-            view: new HandGestureView({ fingerLookupIndexes }),
+            view: new HandGestureView({ fingerLookupIndexes, styler }),
             service: new HandGestureService({
                 gestureStrings,
                 knownGestures,
