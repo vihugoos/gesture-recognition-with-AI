@@ -87,7 +87,7 @@ Other than Node.js and Google Chrome installed, no prerequisites are needed to i
    ```bash
    git clone https://github.com/vihugoos/gesture-recognition-with-AI.git  
    ```
-2. Inside the project root directory install all project dependencies 
+2. Inside the project root directory, install all project dependencies from `package-lock.json`
    ```cmd
    npm ci 
    ```
