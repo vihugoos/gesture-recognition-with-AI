@@ -9,6 +9,7 @@
   <p align="center">
     A platform developed to watch movies and series, developed with Node.js <br/> 
     Explore <a href="https://nodejs.org/en/docs/">Node.js</a> docs &#187; <br/> <br/>
+    <a href="https://vihugoos.github.io/gesture-recognition-with-AI/pages/titles/"> Deployment URL </a> &nbsp;•&nbsp;
     <a href="https://github.com/vihugoos/gesture-recognition-with-AI/issues"> Report Bug </a> &nbsp;•&nbsp;
     <a href="https://github.com/vihugoos/gesture-recognition-with-AI/issues"> Request Feature </a>
   </p>
