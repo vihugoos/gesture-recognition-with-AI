@@ -43,7 +43,12 @@
 <!---- THE PROJECT ----> 
 ## About The Project 
 
-<img src="" align="center" alt="Project Home Page">
+<div align="center">
+  <video preload controls loop type="video/mp4" src="https://user-images.githubusercontent.com/44311634/226429877-20f49260-4b75-4708-b4c9-1d21e22c62c4.mp4">
+    Sorry, your browser does not support embedded videos.
+  </video>
+</div>
+
 A project developed based on a ready-made and open source template (the interface), two new functions were developed: browsing the site using only your hands, with hand recognition through the webcam and playing the video just by blinking at the camera. All this using some <strong>artificial intelligence</strong> from Tensorflow. 
 
 
