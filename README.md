@@ -49,15 +49,15 @@
   </video>
 </div>
 
-A project developed based on a ready-made and open source template (the interface), two new functions were developed: browsing the site using only your hands, with hand recognition through the webcam and playing the video just by blinking at the camera. All this using some <strong>artificial intelligence</strong> from Tensorflow. 
+A project developed based on a ready-made and open source template (the interface), two new functions were developed: browsing the site using only your hands, with hand recognition through the webcam and playing the video just by blinking at the camera. All this using some artificial intelligences from Tensorflow, running in multithreading through web workers, all on the user's front-end, no back-end. 
 
 
 ### Built With 
 
 <div style="display: inline_block">
     <!-- Icon JavaScript --> 
-    <a href=""> 
-      <img align="center" alt="Icon-Node.js" height="33" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"> 
+    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"> 
+      <img align="center" alt="Icon-JS" height="33" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"> 
     </a> &nbsp;
     <!-- Icon TensorFlow --> 
     <a href="https://www.tensorflow.org/"> 
@@ -65,7 +65,7 @@ A project developed based on a ready-made and open source template (the interfac
     </a> &nbsp;
     <!-- Icon Browser Sync --> 
     <a href="https://browsersync.io/"> 
-      <img align="center" alt="Icon-TypeScript" height="33" src="https://user-images.githubusercontent.com/44311634/225719229-3ff19193-dacb-45e3-ad6b-6eddd4bc6f8b.png"> 
+      <img align="center" alt="Icon-BrowserSync" height="33" src="https://user-images.githubusercontent.com/44311634/225719229-3ff19193-dacb-45e3-ad6b-6eddd4bc6f8b.png"> 
     </a> &nbsp;
 </div>
 
